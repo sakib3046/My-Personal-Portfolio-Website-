@@ -1,0 +1,211 @@
+*{
+		margin:0;padding:0;
+		box-sizing: border-box;
+		outline: none; border: none;
+		text-decoration: none;
+		font-weight: normal;
+		text-transform: capitalize;
+
+}
+html{
+		font-size:62.5%;
+		overflow: hidden;
+
+}
+body{
+		overflow:hidden;
+		min-height: 100vh;
+		display:flex;
+		align-items: flex-start;
+		justify-content: space-between;
+		background: linear-gradient(#ff4733,#eb5bda);
+		padding: 2rem;
+                
+
+}
+header{
+		width:35rem;
+                height:98vh;
+		background:rgba(255,255,255,.2);
+		box-shadow: 0 1rem 2rem rgba(0,0,0,.3)
+		backdrop-filter: blur(.4rem);
+		text-align: center;
+		padding:1rem;
+		border-radius: 1rem;
+                overflow:scroll;
+}
+header .user{
+		margin:1rem 0;
+}
+header .user img{
+		margin: 1rem 0;
+		height:15rem;
+		width:15rem;
+		border-radius: 50%;
+		object-fit:cover;
+		box-shadow: 0 0 0 1rem rgba(255,255,255,0.2);
+}
+header .user .name{
+		font-size: 3em;
+		color:#fff;
+		padding: .5rem 0;
+}
+header .user .post{
+		font-size: 1.8em;
+		color:#eee;
+		font-weight:lighter;
+}
+header .navbar{
+		padding:1rem 3rem;
+}
+header .navbar ul li{
+		margin:1rem 0;
+		list-style:none;
+                
+}
+header .navbar ul li a{
+		display:block; 
+		padding:0.5em;
+		font-size:2em;
+		color:#fff;
+		background:rgba(255,255,255,.2);
+		box-shadow:0 1rem 2rem rgba(0,0,0,.3);
+		border-radius: 1rem;
+                
+
+}
+header .navbar ul li a:hover{
+		background:#ff4733;
+		color:#fff;
+}
+.container{
+		height: 98vh;
+		width: 100%;
+		/*background:rgba(255,255,255,.2);
+		box-shadow:0 1rem 2rem rgba(0,0,0,.3);
+		backdrop-filter:blur(.4rem);
+		border-radius: 1rem;*/
+                margin-left:1rem;
+                overflow:hidden;
+}
+.home{
+                background:rgba(255,255,255,.2);
+		box-shadow:0 1rem 2rem rgba(0,0,0,.3);
+		backdrop-filter:blur(.4rem);
+		border-radius: 1rem;
+
+		min-height:100%;
+		display:flex; 
+		align-items:center;
+		justify-content:center;
+		flex-flow:column;
+		position:relative;
+		padding-bottom:10rem;
+
+}
+.home h3{
+		color:#fff;
+		padding:1rem;
+}
+.home .share{
+		position:absolute;
+		left:50%;bottom:5rem;
+		transform:translateX(-50%);
+		background:rgba(255,255,255,.4);
+		box-shadow:0 1rem 2rem rgba(0,0,0,.3);
+		align-items:center;
+		justify-content:center;
+		border-radius:1rem;
+		overflow:hidden;
+		text-align:center;
+		display:flex;
+}
+.home .share a{
+
+		padding:1rem 2rem;
+		margin:1rem;
+		align-items:center;
+		display:inline-block;
+		background:rgba(255,255,255,.6);
+		box-shadow:0 1rem 2rem rgba(0,0,0,.3);
+		border-radius:1rem;
+		align-items:center;
+		text-align:center;
+		transition:all 0.3 ease-out;
+
+}
+.home .share a:nth-child(1):hover{
+		height:5rem;
+		width:6rem;
+		color:#3B5998;
+		text-align:center;
+		box-shadow: 0 0 20px #3b5998;
+}
+.home .share a:nth-child(2):hover{
+		height:5rem;
+		width:6rem;
+		color:#00acee;
+		text-align:center;
+		box-shadow: 0 0 20px #00acee;
+}
+.home .share a:nth-child(3):hover{
+		height:5rem;
+		width:6rem;
+		color:#000;
+		text-align:center;
+		box-shadow: 0 0 20px #000;
+}
+.home .share a:nth-child(4):hover{
+		height:5rem;
+		width:6rem;
+		color:#0e76a8;
+		text-align:center;
+		box-shadow: 0 0 20px #0e76a8;
+}
+.home .share a i:hover{
+		font-size:2.5rem;
+		text-align:center;
+		padding:1px;
+}
+
+/*...................[ABOUT]............................*/
+
+.about{
+                background:rgba(255,255,255,.2);
+		box-shadow:0 1rem 2rem rgba(0,0,0,.3);
+		backdrop-filter:blur(.4rem);
+		border-radius: 1rem;
+
+
+}
+/*...................[CONTECT]............................*/
+
+.contect{
+                background:rgba(255,255,255,.2);
+		box-shadow:0 1rem 2rem rgba(0,0,0,.3);
+		backdrop-filter:blur(.4rem);
+		border-radius: 1rem;
+
+
+}
+/*...................[SKILLS]............................*/
+
+.skills{
+                background:rgba(255,255,255,.2);
+		box-shadow:0 1rem 2rem rgba(0,0,0,.3);
+		backdrop-filter:blur(.4rem);
+		border-radius: 1rem;
+
+
+}
+/*...................[WORKS]............................*/
+
+.works{
+                background:rgba(255,255,255,.2);
+		box-shadow:0 1rem 2rem rgba(0,0,0,.3);
+		backdrop-filter:blur(.4rem);
+		border-radius: 1rem;
+
+
+}
+
